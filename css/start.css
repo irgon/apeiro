@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 16px;
+  zoom: 1;
+}
+
+body {
+  background: #ffffff;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrapper {
+  width: 1155px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../img/bg.png) no-repeat;
+}
+
+div.left {
+  margin: 22px 0 0 135px;
+  float: left;
+  width: 139px;
+  _margin-left: 67px;
+}
+
+#logo {
+  width: 73px;
+  height: 37px;
+  overflow: hidden;
+  text-indent: -1000em;
+  background: url(../img/logo.png) no-repeat;
+}
+
+ul.submenu {
+  margin: 36px 0 0 1px;
+}
+
+ul.submenu li {
+  margin-bottom: 2px;
+}
+
+ul.submenu li a {
+  font-size: 11px;
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul li.selected a,
+ul li.selected a:hover {
+  color: #ef2446;
+}
+
+
+#content {
+  overflow: hidden;
+  width: 747px;
+}
+
+#menu {
+  float: right;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+#menu li {
+  display: inline;
+  padding: 0 5px 0 7px; 
+}
+
+#menu li a {
+  font-size: 11px;
+}
+
+#menu li.language {
+  border-left: solid 1px #000000;
+}
+
+#content h1.tagline {
+  clear: both;
+  float: left;
+  width: 283px;
+  height: 92px;
+  text-indent: -1000em;
+  background: url(../img/whatsup.png) no-repeat;
+  margin: 39px 0 8px;
+  _margin-top: 95px;
+}
+
+#content ul.pager {
+  float: right;
+  overflow: hidden;
+  height: 18px;
+}
+
+#content ul.pager li {
+  display: block;
+  float: left;
+  height: 18px;
+  width: 20px;
+}
+
+#content ul.pager li a {
+  border-left: solid 1px #000000;
+  display: block;
+  width: 20px;
+  height: 11px;
+  margin: 3px 0 4px;
+  text-align: center;
+  line-height: 11px;
+  font-size: 11px;
+}
+
+#content ul.pager-top {
+  margin-top: 111px;
+}
+
+#content ul.pager-bottom {
+  margin-top: 13px;
+}
+
+#content ul.pager li.selected a,
+#content ul.pager li.selected a:hover {
+  padding: 3px 0 4px;
+  margin: 0;
+  background: #ef2446;
+  color: #ffffff;
+} 
+
+#content ul.pager li.selected a,
+#content ul.pager li.left a {
+  border-left: none;
+}
+
+#content ul.pager li.selected + li a {
+  border-left: none;
+}
+
+#content ul.pager li.selected {
+  ie-xp: expression(
+    this.parsed ? 0 : (
+      this.nextSibling.firstChild.style.borderLeft = 'none',
+      this.parsed = 1
+    )
+  );
+}
+
+#content ul.pager li.left a,
+#content ul.pager li.right a {
+  text-indent: -1000em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#content ul.pager li.left a {
+  background-image: url(../img/arr-left.png);
+}
+
+#content ul.pager li.right a {
+  background-image: url(../img/arr-right.png);
+}
+
+#content div.content {
+  clear: both;
+  width: 747px;
+  background: url(../img/content-bg.png) repeat-y;
+}
+
+#content div.content div.body-top {
+  background: url(../img/content-top.png) no-repeat;
+  background-position: left top;
+}
+
+#content div.content div.body-bottom {
+  background: url(../img/content-bottom.png) no-repeat;
+  background-position: left bottom;
+  padding: 22px 23px;
+}
+
+#content div.image,
+#content div.image div.frame,
+#content div.image img {
+  width: 200px;
+  height: 135px;
+  position: relative;
+  display: block;
+}
+
+#content div.image {
+  float: left;
+  margin-right: 16px;
+}
+
+#content div.image div.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/frame.gif) no-repeat;
+}
+
+#content div.content a {
+  color: #ef2446;
+}
+
+#content div.content a:hover {
+  text-decoration: underline;
+}
+
+#content div.content h2,
+#content div.content p {
+  font-family: "Times New Roman", serif;
+}
+
+#content div.content h2 {
+  font-size: 22px;
+  color: #ef2446;
+  margin-bottom: 5px;
+}
+
+#content div.content cite {
+  font-size: 11px;
+  padding-left: 12px;
+  background: url(../img/clock.gif) no-repeat;
+  background-position: left center;
+  display: block;
+  line-height: 9px;
+  margin-bottom: 5px;
+}
+
+#content div.content div.main {
+  overflow: hidden;
+}
+
+#content div.content div.news {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#footer {
+  clear: both;
+  margin: 78px 136px 0 137px;
+  border-top: dotted 1px #000000;
+  padding-top: 2px;
+}

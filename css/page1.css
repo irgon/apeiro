@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 16px;
+  zoom: 1;
+}
+
+body {
+  background: #ffffff;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+ul li a:hover {
+  color: #ef2446;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 884px;
+  padding: 0 128px 0 143px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg2.png) no-repeat;
+  overflow: hidden;
+}
+
+#wrapper div.left {
+  width: 407px;
+  padding: 54px 73px 0 27px;
+  float: left;
+}
+
+#wrapper div.left #video {
+  width: 407px;
+  height: 332px;
+  background: url(../img/photo/video.jpg) no-repeat;
+}
+
+#wrapper div.left a {
+  float: right;
+  padding-right: 15px;
+  background: url(../img/more.gif) no-repeat;
+  background-position: right center;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+#wrapper div.right {
+  overflow: hidden;
+  padding-top: 12px;
+}
+
+#wrapper div.right ul {
+  float: right;
+  clear: right;
+}
+
+div.right ul.language {
+  overflow: hidden;
+}
+
+div.right ul.language li {
+  display: inline;
+}
+
+div.right ul.language li a {
+  color: #a4a4a4;
+}
+
+div.right ul.language li.selected a,
+div.right ul.langage li a:hover {
+  color: #000000;
+}
+
+
+div.right #menu {
+  float: right;
+  overflow: hidden;
+  margin-top: 13px;
+}
+
+div.right #menu li {
+  display: inline;
+  padding: 0 11px; 
+}
+
+div.right ul.submenu li {
+  text-align: right;
+  width: 100px;
+}
+
+div.right h1.tagline {
+  clear: both;
+  width: 285px;
+  height: 45px;
+  text-indent: -1000em;
+  overflow: hidden;
+  background: url(../img/whatsup2.png) no-repeat;
+}
+
+div.right ul.submenu {
+  margin: 5px 6px 94px 0;
+}
+
+div.right ul.submenu li {
+  margin-bottom: 3px;
+}
+
+div.right ul.submenu li a {
+  font-size: 11px;
+}
+
+div.right #logo {
+  width: 73px;
+  height: 37px;
+  text-indent: -1000em;
+  overflow: hidden;
+  background: url(../img/logo.png) no-repeat;
+  margin-top: 69px;
+}
+
+div.right div.news {
+  overflow: hidden;
+  margin-left: 4px;
+}
+
+div.right div.news cite {
+  font-size: 11px;
+  padding-left: 12px;
+  background: url(../img/clock.gif) no-repeat;
+  background-position: left center;
+  display: block;
+  line-height: 9px;
+  margin: 12px 0 2px;
+}
+
+div.right div.news h3 {
+  color: #ef2446;
+}
+
+#slider {
+  clear: both;
+  padding-top: 38px;
+}
+
+#slider h2 {
+  width: 347px;
+  height: 52px;
+  text-indent: -1000em;
+  background: url(../img/10simple.png) no-repeat;
+}
+
+#slider a.more {
+  float: right;
+  background: url(../img/more.gif) no-repeat;
+  background-position: right center;
+  padding-right: 15px;
+  margin: 29px 10px 0 0;
+  font-weight: bold;
+}
+
+#slider ul.slider {
+  overflow: hidden;
+  margin: 3px 0 0 7px;
+}
+
+#slider ul.slider li {
+  float: left;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#slider ul.slider li.left,
+#slider ul.slider li.right {
+  width: 33px;
+  height: 73px;
+  text-indent: -1000em;
+  overflow: hidden;
+}
+
+#slider ul.slider li.left {
+  margin-left: 0;
+  background: url(../img/slider-left.png) no-repeat;
+}
+
+#slider ul.slider li.right {
+  margin-left: 18px;
+  background: url(../img/slider-right.png) no-repeat;
+}
+
+#slider ul.slider li.left + li {
+  margin-left: 13px;
+}
+
+#slider ul.slider li.left {
+  ie-xp: expression(
+    this.parsed ? 0 : (
+      this.nextSibling.style.marginLeft = '13px',
+      this.parsed = 1
+    )
+  );
+}
+
+#slider ul.slider li.small {
+  width: 118px;
+}
+
+#slider ul.slider li.medium {
+  width: 138px;
+}
+
+#slider ul.slider li.large {
+  width: 161px;
+}
+
+#footer {
+  clear: both;
+  margin: 27px 8px 0;
+  border-top: dotted 1px #000000;
+  padding-top: 2px;
+}
